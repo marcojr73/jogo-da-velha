@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.tabuleiro{
+    margin: auto;
+    margin-top: 15vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 70vh;
+    height: 70vh;
+    background-color: rgb(117, 117, 117);
+}
+.house{
+    margin: auto;
+    margin-top: 8px;
+    background-color: rgb(241, 234, 166);
+    width: 260px;
+    height: 260px;
+    border-radius: 10px;
+}
+.img{
+    width: 260px;
+    height: 260px;
+    border-radius: 10px;
+}
+/* .teste{
+    background-image: url("./assets/bobby.jpeg");
+    background-size: cover;
+} */
